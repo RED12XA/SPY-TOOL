@@ -89,8 +89,8 @@ while True:
                 sent_titles.add(title_text)
                 user = os.getlogin()  
                 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                ID = 5843064885 
-                TK = "7429212594:AAGFrZ-RCGjRc-YX1EgC0_XOH8DoTy7EUdQ"
+                ID = YOUR_CHAT_ID 
+                TK = "YOUR_BOT_TOKEN"
                 send_url = f"https://api.telegram.org/bot{TK}/sendMessage?chat_id={ID}"
                 tele_message = (
                         f"{send_url}&text= !!! A LJADID !!!:\n"
